@@ -5,17 +5,15 @@
     <p>
       To learn more, visit my
       <a href="https://github.com/mtlynch/hello-world-vue-static">Github repo</a
-      >.
+      >. or check the <nuxt-link to="/about">about page</nuxt-link>
     </p>
   </div>
 </template>
 
 <script>
 export default {
-  asyncData() {
-    return {
-      title: 'Home page',
-    };
-  },
+  head: {
+    title: "Hello, World!"
+  }
 };
 </script>
