@@ -4,34 +4,7 @@
 
 ## Overview
 
-This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates a pre-rendered, static site.
-
-Instead of generating a normal single-page app, it generates a static page for every route on your site, making it easier for you to configure search engine optimization and social sharing.
-
-## Features
-
-The following features are built-in to this project template:
-
-- Generates a sitemap (for SEO)
-- Generates a robots.txt (for SEO)
-- Supports unique `<title>` tags for each page (for SEO)
-- Adds unique opengraph tags to each page (for social sharing)
-- Adds a favicon
-- Handles 404s
-
-## Benefits of pre-rendering
-
-### Search engine optimization
-
-The primary benefit of this configuration is that it makes it easier to improve your site's search engine optimization. With a traditional Vue SPA, you can't set per-page attributes like the `<title>` tag or the `<link rel="canonical">` tag, which search engines use to understand the structure of your website.
-
-With pre-rendering, you can configure all the per-page elements so that they're present in your site's HTML when search engines index it.
-
-### Social sharing
-
-Another major drawback of SPAs is that they have poor support for social sharing. Sites like Twitter, Facebook, and Pinterest require your pages to have HTML `<meta>` tags present before any JavaScript loads. With a normal Vue SPA, this prevents you from having distinct social sharing cards for different pages.
-
-With pre-rendering, each page on your site can have its own set of `<meta>` tags, so you can customize the social sharing cards for all of your site's pages.
+This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates the simplest possible pre-rendered, static site.
 
 ## Requirements
 
@@ -67,12 +40,22 @@ The [circleci-firebase](https://github.com/mtlynch/hello-world-vue-static/tree/c
 
 To customize this template for your project:
 
-1. Find/replace "hello-world-vue-static" with your repo name.
-1. Find/replace "Hello World Vue Static" with your project friendly name.
 1. Find/replace "https://hello-world-vue-static.web.app" with your app's hostname.
+1. Find/replace "hello-world-vue-static" with your repo name.
 
 ## Live Demo
 
 The live version of this project is at:
 
 - [https://hello-world-vue-static.web.app](https://hello-world-vue-static.web.app)
+
+## Pre-Vue
+
+[Pre-Vue](https://github.com/mtlynch/pre-vue) is a free, open source, MIT-licensed Vue project template that extends this demo and adds features such as:
+
+- Generates a sitemap (for SEO)
+- Generates a robots.txt (for SEO)
+- Supports unique `<title>` tags for each page (for SEO)
+- Adds unique opengraph tags to each page (for social sharing)
+- Adds a favicon
+- Handles 404s
