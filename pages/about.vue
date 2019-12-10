@@ -21,14 +21,14 @@ export default {
   // Vue evaluates asyncData once at page build time.
   asyncData() {
     return {
-      buildTime: new Date().toLocaleString()
+      buildTime: new Date().toUTCString()
     };
   },
   // Vue evaluates data variables at page render time and again every time the
   // browser loads this page.
   data: function() {
     return {
-      loadTime: new Date().toLocaleString()
+      loadTime: new Date().toUTCString()
     };
   }
 };
