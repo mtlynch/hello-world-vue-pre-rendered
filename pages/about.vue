@@ -2,11 +2,11 @@
   <div>
     <h1>About this Build</h1>
     <p>
-      This page was pre-rendered at <b>{{ buildTime }}</b
-      >.
+      Nuxt pre-rendered this page at <b>{{ buildTime }}</b> (before the browser
+      ever saw it).
     </p>
     <p>
-      This page was loaded at <b>{{ loadTime }}</b
+      The browser loaded this page at <b>{{ loadTime }}</b
       >.
     </p>
     <p><nuxt-link to="/">Home</nuxt-link></p>
