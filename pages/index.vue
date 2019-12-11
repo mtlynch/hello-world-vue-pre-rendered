@@ -13,6 +13,7 @@
 <script>
 export default {
   head: {
+    // Sets the page's <title> tag.
     title: "Hello, World!"
   }
 };

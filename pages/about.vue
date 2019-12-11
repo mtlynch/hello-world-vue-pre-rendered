@@ -16,6 +16,7 @@
 <script>
 export default {
   head: {
+    // Sets the page's <title> tag.
     title: "About this Build"
   },
   // Vue evaluates asyncData once at page build time.
