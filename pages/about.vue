@@ -2,7 +2,7 @@
   <div>
     <h1>About this Build</h1>
     <p>
-      This page was rendered at <b>{{ buildTime }}</b
+      This page was pre-rendered at <b>{{ buildTime }}</b
       >.
     </p>
     <p>
