@@ -5,7 +5,7 @@
       Nuxt pre-rendered this page at <b>{{ buildTime }}</b> (before the browser
       ever saw it).
     </p>
-    <div v-else>
+    <template v-else>
       <p>
         Vue generated this page client-side because you navigated here from
         another route on the same site.
@@ -13,7 +13,7 @@
       <p>
         <a href="/about">Refresh the page</a> to see the pre-rendered version.
       </p>
-    </div>
+    </template>
     <p>
       The browser loaded this page at <b>{{ loadTime }}</b
       >.
