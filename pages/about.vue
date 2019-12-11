@@ -19,11 +19,14 @@ export default {
     // Sets the page's <title> tag.
     title: "About this Build"
   },
-  // Vue evaluates asyncData once at page build time.
   asyncData() {
-    return {
-      buildTime: new Date().toUTCString()
-    };
+    // Don't re-evaluate buildTime when the client loads this page in the
+    // browser.
+    if (!process.client) {
+      return {
+        buildTime: new Date().toUTCString()
+      };
+    }
   },
   // Vue evaluates data variables at page render time and again every time the
   // browser loads this page.
