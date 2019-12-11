@@ -15,10 +15,6 @@
 
 <script>
 export default {
-  head: {
-    // Sets the page's <title> tag.
-    title: "About this Build"
-  },
   asyncData() {
     // Don't re-evaluate buildTime when the client loads this page in the
     // browser.
