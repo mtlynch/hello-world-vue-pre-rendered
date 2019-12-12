@@ -31,10 +31,6 @@ export default {
       return {
         buildTime: new Date().toUTCString()
       };
-    } else {
-      return {
-        buildTime: null
-      };
     }
   },
   // Vue evaluates data variables at page render time and again every time the
