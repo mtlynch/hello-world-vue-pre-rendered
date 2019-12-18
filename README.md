@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates the simplest possible pre-rendered, static site.
+This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates the simplest possible pre-rendered, static web app.
 
 ## Requirements
 
