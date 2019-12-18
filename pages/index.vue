@@ -14,7 +14,7 @@
 export default {
   data: function() {
     return {
-      repoUrl: "https://github.com/mtlynch/hello-world-vue-static"
+      repoUrl: "https://github.com/mtlynch/hello-world-vue-pre-rendered"
     };
   }
 };

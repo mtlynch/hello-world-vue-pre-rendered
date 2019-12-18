@@ -1,6 +1,6 @@
-# hello-world-vue-static
+# hello-world-vue-pre-rendered
 
-[![CircleCI](https://circleci.com/gh/mtlynch/hello-world-vue-static.svg?style=svg)](https://circleci.com/gh/mtlynch/hello-world-vue-static) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
+[![CircleCI](https://circleci.com/gh/mtlynch/hello-world-vue-pre-rendered.svg?style=svg)](https://circleci.com/gh/mtlynch/hello-world-vue-pre-rendered) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
 
 ## Overview
 
@@ -34,20 +34,20 @@ This will generate all the files for a static, pre-rendered version of your webs
 - [Google Cloud Storage](https://cloud.google.com/storage/docs/hosting-static-website)
 - [Netlify](https://www.netlify.com/blog/2016/10/27/a-step-by-step-guide-deploying-a-static-site-or-single-page-app/)
 
-The [circleci-firebase](https://github.com/mtlynch/hello-world-vue-static/tree/circleci-firebase) branch of this repo includes an example configuration that automatically builds your site using Circle CI and deploys it to Firebase.
+The [circleci-firebase](https://github.com/mtlynch/hello-world-vue-pre-rendered/tree/circleci-firebase) branch of this repo includes an example configuration that automatically builds your site using Circle CI and deploys it to Firebase.
 
 ## Customization
 
 To customize this template for your project:
 
-1. Find/replace "https://hello-world-vue-static.web.app" with your app's hostname.
-1. Find/replace "hello-world-vue-static" with your repo name.
+1. Find/replace "https://hello-world-vue-pre-rendered.web.app" with your app's hostname.
+1. Find/replace "hello-world-vue-pre-rendered" with your repo name.
 
 ## Live Demo
 
 The live version of this project is at:
 
-- [https://hello-world-vue-static.web.app](https://hello-world-vue-static.web.app)
+- [https://hello-world-vue-pre-rendered.web.app](https://hello-world-vue-pre-rendered.web.app)
 
 ## Pre-Vue
 
