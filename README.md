@@ -6,6 +6,10 @@
 
 This is an example of a [Vue](https://vuejs.org) + [Nuxt](https://nuxtjs.org) configuration that generates the simplest possible pre-rendered, static web app.
 
+## Detailed walkthrough
+
+For a detailed walkthrough of this project, see the blog post, ["A Simple Pre-Rendered Web App Using Vue + Nuxt"](https://mtlynch.io/simple-vue-pre-rendered/) on mtlynch.io.
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/en/download/)
